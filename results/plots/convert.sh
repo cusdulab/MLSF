@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-for s in "structural similarity" "sequence similarity"
+for d in "training with most dissimilar samples" "training with most similar samples"
 do
-	echo "$s"
-	cd "$s"
-	for d in "training with most dissimilar samples" "training with most similar samples"
+	echo "$d"
+	cd "$d"
+	for s in "structural similarity" "sequence similarity"
 	do
-		echo "$d"
-		cd "$d"
+		echo "$s"
+		cd "$s"
 		for f in "X-Score" "Vina" "Cyscore"
 		do
 			echo "$f"
