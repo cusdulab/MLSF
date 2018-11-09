@@ -22,14 +22,14 @@ do
 		for m in "RP" "RS" "RMSE"
 		do
 			echo "$m"
-			convert X-Score/$m.png Vina/$m.png Cyscore/$m.png -append $m.png
+			convert X-Score/$m.png Vina/$m.png Cyscore/$m.png -append $m.png # -append specifies vertical merging.
 		done
 		cd ..
 	done
 	for m in "RP" "RS" "RMSE"
 	do
 		echo "$m"
-		convert "structural similarity"/$m.png "sequence similarity"/$m.png +append $m.png
+		convert "structural similarity"/$m.png "sequence similarity"/$m.png +append $m.png # +append specifies horizontal merging.
 	done
 	cd ..
 done
