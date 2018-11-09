@@ -14,7 +14,7 @@ The plot subdirectory contains Matlab source code and data for plotting Rp, Rs, 
 ## results
 This directory contains a file and a subdirectory: results.xlsx and plots.  
 The results.xlsx file lists all the results in four tables (two similarity measures * two similarity directions).  
-The plots subdirectory contains 36 figures in both PDF and TIFF (600 dpi) formats showing and comparing the predictive performance of nine scoring functions.  
+The plots subdirectory contains 36 figures in PDF, TIFF and PNG (600 dpi) formats showing and comparing the predictive performance of nine scoring functions.  
 
 ## License
 MIT License
