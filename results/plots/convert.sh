@@ -3,7 +3,7 @@ for d in "training with most dissimilar samples" "training with most similar sam
 do
 	echo "$d"
 	cd "$d"
-	for s in "structural similarity" "sequence similarity"
+	for s in "structural similarity" "sequence similarity" "ligand similarity"
 	do
 		echo "$s"
 		cd "$s"
@@ -29,7 +29,7 @@ do
 	for m in "RP" "RS" "RMSE"
 	do
 		echo "$m"
-		convert "structural similarity"/$m.png "sequence similarity"/$m.png +append $m.png # +append specifies horizontal merging.
+		convert "structural similarity"/$m.png "sequence similarity"/$m.png "ligand similarity"/$m.png +append $m.png # +append specifies horizontal merging.
 	done
 	cd ..
 done
