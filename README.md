@@ -8,9 +8,8 @@ This directory contains three files: `training.tsv`, `test.tsv` and `ligands.tar
 * `ligands.tar.gz` contains 1300 ligands in PDBbind v2007 refined set.
 
 ## source
-This directory contains a file and two subdirectories: `XGB-Score.ipynb`, `eval` and `plot`.
-* `XGB-Score.ipynb` is the Python Notebook for XGB-Score.
-* `eval` contains Matlab source code and data for building and evaluating scoring functions.
+This directory contains two subdirectories: `eval` and `plot`.
+* `eval` contains Matlab source code, python notebook and data for building and evaluating scoring functions.
 * `plot` contains Matlab source code and data for plotting Rp, Rs, RMSE figures.
 
 ## results
