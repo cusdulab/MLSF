@@ -15,10 +15,10 @@ This directory contains two subdirectories: `eval` and `plot`.
 ## results
 This directory contains a file and a subdirectory: `results.xlsx` and `plots`.
 * `results.xlsx` lists all the results in six tables (three similarity measures * two similarity directions).
-* `plots` contains 54 figures in PDF and PNG (600 dpi) formats showing and comparing the predictive performance of nine scoring functions.
+* `plots` contains figures in PDF and PNG (600 dpi) formats showing and comparing the predictive performance of nine scoring functions.
 
 ## License
 MIT License
 
 ## References
-[1] Hongjian Li, Jiangjun Peng, Pavel Sidorov, Yee Leung, Kwong-Sak Leung, Man-Hon Wong, Gang Lu and Pedro J. Ballester. Classical scoring functions for docking are unable to exploit large volumes of structural and interaction data. Submitted to Bioinformatics.
+[1] Hongjian Li, Jiangjun Peng, Pavel Sidorov, Yee Leung, Kwong-Sak Leung, Man-Hon Wong, Gang Lu and Pedro J. Ballester. Classical scoring functions for docking are unable to exploit large volumes of structural and interaction data. Bioinformatics, btz183, 2019. [DOI: 10.1093/bioinformatics/btz183]: https://doi.org/10.1093/bioinformatics/btz183
