@@ -1,5 +1,9 @@
 # MLSF machine-learning scoring function
-Code and data for reproducing the results of machine-learning vs classical scoring functions on a similarity-based benchmark [1].
+Code and data for reproducing the results of machine-learning vs classical scoring functions on a similarity-based benchmark, presented in the paper by Li et al. [1].
+
+## Directories
+* `v2007` contains files related to the paper published in Bioinformatics in 2019 [1].
+
 
 ## License
 MIT License
