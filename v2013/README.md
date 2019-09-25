@@ -15,5 +15,8 @@ This directory contains five files: `Feature.xlsx`, `Performance.xlsx`, `Protein
 * `Ligand fingerprint.pdf` same as above, but substituting ligand fingerprint similarity instead.
 * `Pocket topology.pdf` same as above, but substituting pocket topology similarity instead.
 
+## Code
+This directory is currently empty and will contain source code and scripts implementing the partitioning of training data according to cutoff values and subsequently building MLR and RF models.
+
 ## References
-[1] HongjianL Li, Kam-Heung Sze, Gang Lu. Influence of data similarity on the scoring power of machine-learning scoring functions on PDBbind v2013. To be submitted to the 11th International Conference on Bioinformatics Models, Methods and Algorithms.
+[1] Kam-Heung Sze, Zhiqiang Xiong, Jinlong Ma, Gang Lu, Wai-Yee Chan, Hongjian Li. Influence of data similarity on the scoring power of machine-learning scoring functions for docking. To be submitted to the 11th International Conference on Bioinformatics Models, Methods and Algorithms.
