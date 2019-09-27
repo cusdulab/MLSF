@@ -26,4 +26,4 @@ This directory contains Perl and R source code and bash scripts implementing the
 * `pipeline.sh` runs the above scripts in order.
 
 ## References
-[1] Kam-Heung Sze, Zhiqiang Xiong, Jinlong Ma, Gang Lu, Wai-Yee Chan, Hongjian Li. Influence of data similarity on the scoring power of machine-learning scoring functions for docking. To be submitted to the 11th International Conference on Bioinformatics Models, Methods and Algorithms.
+[1] Kam-Heung Sze, Zhiqiang Xiong, Jinlong Ma, Gang Lu, Wai-Yee Chan, Hongjian Li. Influence of data similarity on the scoring power of machine-learning scoring functions for docking. Submitted to the 11th International Conference on Bioinformatics Models, Methods and Algorithms.
