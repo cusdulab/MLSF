@@ -16,7 +16,7 @@ This directory contains five files: `Feature.xlsx`, `Performance.xlsx`, `Protein
 * `Pocket topology.pdf` same as above, but substituting pocket topology similarity instead.
 
 ## Code
-This directory contains Perl and R source code and bash scripts implementing the extraction of features from complexes, partitioning of training data according to cutoff values, and subsequently building and evaluating MLR and RF models.
+This directory contains Perl and R source code and bash scripts implementing the extraction of features from complexes, partitioning of training data according to cutoff values, building and evaluating MLR and RF models, and plotting performance figures.
 * `extractFeatures.sh` extracts Cyscore, X-Score and Vina features from the complexes.
 * `calculateSimilarity.sh` calculates pairwise similarity matrices between training complexes and test complexes under the three measures of protein structure, ligand fingerprint and pocket topology.
 * `generateSubsetIds.pl` determines the id of training complexes given a range of similarity cutoff values.
@@ -24,6 +24,7 @@ This directory contains Perl and R source code and bash scripts implementing the
 * `lm.R` builds multiple linear regression models on the training set and evaluates them on the test set.
 * `rf.R` builds random forest models on the training set and evaluates them on the test set.
 * `pipeline.sh` runs the above scripts in order.
+* `plotPerformance{PS,LF,PT}` plots the performance figures (3 columns by 4 rows) under the three measures of protein structure (PS), ligand fingerprint (LF) and pocket topology (PT).
 
 ## References
 [1] Kam-Heung Sze, Zhiqiang Xiong, Jinlong Ma, Gang Lu, Wai-Yee Chan, Hongjian Li. Influence of data similarity on the scoring power of machine-learning scoring functions for docking. Submitted to the 11th International Conference on Bioinformatics Models, Methods and Algorithms.
