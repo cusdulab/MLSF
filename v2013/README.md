@@ -24,7 +24,7 @@ This directory contains Perl and R source code and bash scripts implementing the
 * `lm.R` builds multiple linear regression models on the training set and evaluates them on the test set.
 * `rf.R` builds random forest models on the training set and evaluates them on the test set.
 * `runPipeline.sh` runs the above scripts in order.
-* `plotPerformance{PS,LF,PT}` plots the performance figures (3 columns by 4 rows) under the three measures of protein structure (PS), ligand fingerprint (LF) and pocket topology (PT).
+* `plotPerformance{PS,LF,PT}.R` plots the performance figures (3 columns by 4 rows) under the three measures of protein structure (PS), ligand fingerprint (LF) and pocket topology (PT).
 
 ## References
 [1] Kam-Heung Sze, Zhiqiang Xiong, Jinlong Ma, Gang Lu, Wai-Yee Chan, Hongjian Li. Influence of data similarity on the scoring power of machine-learning scoring functions for docking. Submitted to the 11th International Conference on Bioinformatics Models, Methods and Algorithms.
