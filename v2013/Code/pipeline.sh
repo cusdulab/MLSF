@@ -4,7 +4,7 @@ sh extractFeatures.sh &
 
 #========================= protein ==========================#
 
-perl calcSimilarity.pl protein Similarity.csv 0.3
+perl generateSubsetIds.pl protein Similarity.csv 0.3
 sh generateSubsetFeatures.sh protein
 
 for j in `cat RF_input`
