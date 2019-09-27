@@ -23,7 +23,7 @@ This directory contains Perl and R source code and bash scripts implementing the
 * `generateSubsetFeatures.sh` generates nested training sets populated with features.
 * `lm.R` builds multiple linear regression models on the training set and evaluates them on the test set.
 * `rf.R` builds random forest models on the training set and evaluates them on the test set.
-* `pipeline.sh` runs the above scripts in order.
+* `runPipeline.sh` runs the above scripts in order.
 * `plotPerformance{PS,LF,PT}` plots the performance figures (3 columns by 4 rows) under the three measures of protein structure (PS), ligand fingerprint (LF) and pocket topology (PT).
 
 ## References
