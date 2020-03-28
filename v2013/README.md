@@ -1,5 +1,5 @@
 # MLSF machine-learning scoring function
-Code and data for reproducing the results presented in the paper by Li et al. [1].
+Code and data for reproducing the results presented in the paper by Sze et al. [1].
 
 ## Cutoff
 This directory contains three files: `Similarity.xlsx`, `Cutoff.xlsx` and `Cutoff.pdf`.
@@ -27,4 +27,6 @@ This directory contains Perl and R source code and bash scripts implementing the
 * `plotPerformance{PS,LF,PT}.R` plots the performance figures (3 columns by 4 rows) under the three measures of protein structure (PS), ligand fingerprint (LF) and pocket topology (PT).
 
 ## References
-[1] Kam-Heung Sze, Zhiqiang Xiong, Jinlong Ma, Gang Lu, Wai-Yee Chan, Hongjian Li. Influence of data similarity on the scoring power of machine-learning scoring functions for docking. Submitted to the 11th International Conference on Bioinformatics Models, Methods and Algorithms.
+[1] Kam-Heung Sze, Zhiqiang Xiong, Jinlong Ma, Gang Lu, Wai-Yee Chan, Hongjian Li. Influence of data similarity on the scoring power of machine-learning scoring functions for docking. In Proceedings of the 13th International Joint Conference on Biomedical Engineering Systems and Technologies - Volume 3: BIOINFORMATICS. pp. 85-92, 2020. [DOI: 10.5220/0008873800850092]
+
+[DOI: 10.5220/0008873800850092]: https://doi.org/10.5220/0008873800850092
