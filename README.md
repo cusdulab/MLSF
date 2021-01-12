@@ -9,7 +9,7 @@ Code and data for reproducing the results of machine-learning scoring functions 
 MIT License
 
 ## References
-[1] Hongjian Li, Jiangjun Peng, Pavel Sidorov, Yee Leung, Kwong-Sak Leung, Man-Hon Wong, Gang Lu and Pedro J. Ballester. Classical scoring functions for docking are unable to exploit large volumes of structural and interaction data. Bioinformatics, btz183, 2019. [DOI: 10.1093/bioinformatics/btz183]
+[1] Hongjian Li, Jiangjun Peng, Pavel Sidorov, Yee Leung, Kwong-Sak Leung, Man-Hon Wong, Gang Lu and Pedro J. Ballester. Classical scoring functions for docking are unable to exploit large volumes of structural and interaction data. Bioinformatics, 35(20):3989-3995, 2019. [DOI: 10.1093/bioinformatics/btz183]
 
 [2] Kam-Heung Sze, Zhiqiang Xiong, Jinlong Ma, Gang Lu, Wai-Yee Chan, Hongjian Li. Influence of data similarity on the scoring power of machine-learning scoring functions for docking. In Proceedings of the 13th International Joint Conference on Biomedical Engineering Systems and Technologies - Volume 3: BIOINFORMATICS. pp. 85-92, 2020. [DOI: 10.5220/0008873800850092]
 
