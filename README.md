@@ -6,6 +6,9 @@ Code and data for reproducing the results of machine-learning scoring functions 
 * `CASF-2013` contains files related to the paper published in Proceedings of the 13th International Joint Conference on Biomedical Engineering Systems and Technologies - Volume 3: BIOINFORMATICS in 2020 [2].
 * `CASF-2016` and `Blind-2018` contain files related to a paper to be published [3].
 
+## Files
+* `ScoringPower.xlsx` contains the Rp performances of various scoring functions on four benchmarks.
+
 ## License
 MIT License
 
