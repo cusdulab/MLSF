@@ -1,10 +1,11 @@
 # MLSF machine-learning scoring function
-Code and data for reproducing the results of machine-learning scoring functions versus classical scoring functions on similarity-based benchmarks, presented in the papers by Li et al. [1] and Sze et al. [2].
+Code and data for reproducing the results of machine-learning scoring functions versus classical scoring functions on similarity-based benchmarks, presented in the papers by Li et al. [1,3] and Sze et al. [2].
 
 ## Directories
 * `CASF-2007` contains files related to the paper published in Bioinformatics in 2019 [1].
 * `CASF-2013` contains files related to the paper published in Proceedings of the 13th International Joint Conference on Biomedical Engineering Systems and Technologies - Volume 3: BIOINFORMATICS in 2020 [2].
 * `CASF-2016` and `Blind-2018` contain files related to a paper to be published [3].
+* `Code` contains the source code used to reproduce the results presented in [2,3].
 
 ## Files
 * `ScoringPower.xlsx` contains the Rp performances of various scoring functions on four benchmarks.
