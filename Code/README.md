@@ -10,7 +10,9 @@ This directory contains Perl and R source code and bash scripts implementing the
 * `rf.R` builds random forest models on the training set and evaluates them on the test set.
 * `xgb.R` builds xgboost models on the training set and evaluates them on the test set.
 * `runPipeline.sh` runs the above scripts in order.
-* `plotPerformance{PS,LF,PT}.R` plots the performance figures (3 columns by 4 rows) under the three measures of protein structure (PS), ligand fingerprint (LF) and pocket topology (PT).
+* `plotPerformance{PS,LF,PT}.R` plots the performance figures (3 columns by 4 rows) under the three measures of protein structure (PS), ligand fingerprint (LF) and pocket topology (PT). It was used on CASF-2013.
+* `plotPerformance{Rp,Rs,RMSE}2016.R` plots the Rp, Rs, RMSE performance figures (3 columns by 4 rows). It was used on CASF-2016.
+* `plotPerformance{Rp,Rs,RMSE}2018.R` plots the Rp, Rs, RMSE performance figures (3 columns by 4 rows). It was used on Blind-2018.
 
 ## References
 [1] Kam-Heung Sze, Zhiqiang Xiong, Jinlong Ma, Gang Lu, Wai-Yee Chan, Hongjian Li. Influence of data similarity on the scoring power of machine-learning scoring functions for docking. In Proceedings of the 13th International Joint Conference on Biomedical Engineering Systems and Technologies - Volume 3: BIOINFORMATICS. pp. 85-92, 2020. [DOI: 10.5220/0008873800850092]
