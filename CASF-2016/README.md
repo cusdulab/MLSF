@@ -9,6 +9,8 @@ Data for reproducing the results presented in the paper by Li et al. [1].
 * `Rp.pdf` contains 12 plots showing the Rp performance of eight scoring functions when they were trained on nested sets generated according to three similarity metrics in two directions. This file was derived from running R on `Performance.xlsx`.
 * `Rs.pdf` same as above, but Rs instead.
 * `RMSE.pdf` same as above, but RMSE instead.
+* `TrainingTime.xlsx` contains the training time required by RF::XVC and XGB::XVC.
+* `TrainingTime.pdf` contains two plots showing the RMSE performance and training time of RF::XVC and XGB::XVC.
 
 ## References
 [1] Hongjian Li, Gang Lu, Kam-Heung Sze, Kwong-Sak Leung. Machine-Learning Scoring Functions Trained on Complexes Dissimilar to the Test Set Already Outperform Classical Counterparts on a Blind Benchmark.
