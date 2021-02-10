@@ -1,5 +1,5 @@
 # MLSF machine-learning scoring function
-Code and data for reproducing the results of machine-learning scoring functions versus classical scoring functions on similarity-based benchmarks, presented in the paper by Li et al. [1]. This repository is a fork of [https://github.com/HongjianLi/MLSF].
+Code and data for reproducing the results of machine-learning scoring functions versus classical scoring functions on similarity-based benchmarks, presented in the paper by Li et al. [1]. This repository is a fork of <https://github.com/HongjianLi/MLSF>.
 
 ## Directories
 * `CASF-2016` contains data and results on the CASF-2016 benchmark.
