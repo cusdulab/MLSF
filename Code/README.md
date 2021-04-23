@@ -12,3 +12,5 @@ This directory contains Perl and R source code and bash scripts implementing the
 * `runPipeline.sh` runs the above scripts in order.
 * `plotPerformance{Rp,Rs,RMSE}2016.R` plots the Rp, Rs, RMSE performance figures (3 columns by 4 rows). It was used on CASF-2016.
 * `plotPerformance{Rp,Rs,RMSE}2018.R` plots the Rp, Rs, RMSE performance figures (3 columns by 4 rows). It was used on Blind-2018.
+* `plotScatter2016.R` plots the predicted against the measured binding affinities (3 columns by 3 rows). It was used on CASF-2016.
+* `plotScatter2018.R` plots the predicted against the measured binding affinities (3 columns by 3 rows). It was used on Blind-2018.
